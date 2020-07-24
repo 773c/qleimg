@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/qleimg.iml" filepath="$PROJECT_DIR$/qleimg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qleimg-common/qleimg-common.iml" filepath="$PROJECT_DIR$/qleimg-common/qleimg-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qleimg-portal/qleimg-portal.iml" filepath="$PROJECT_DIR$/qleimg-portal/qleimg-portal.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="qleimg-portal:war">
+    <output-path>$PROJECT_DIR$/qleimg-portal/target</output-path>
+    <root id="archive" name="qleimg-portal.war">
+      <element id="artifact" artifact-name="qleimg-portal:war exploded" />
+    </root>
+  </artifact>
+</component>

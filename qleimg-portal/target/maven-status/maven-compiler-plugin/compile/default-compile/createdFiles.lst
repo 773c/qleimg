@@ -1,0 +1,13 @@
+com\eiqle\qleimg\portal\entity\OssPolicy.class
+com\eiqle\qleimg\portal\service\impl\OssServiceImpl.class
+com\eiqle\qleimg\portal\controller\ImgDifferenceController.class
+com\eiqle\qleimg\portal\service\ImgDifferenceService.class
+com\eiqle\qleimg\portal\service\OssService.class
+com\eiqle\qleimg\portal\controller\OssController.class
+com\eiqle\qleimg\portal\config\OssConfig.class
+com\eiqle\qleimg\portal\service\impl\ImgDifferenceServiceImpl.class
+com\eiqle\qleimg\portal\dao\ImgDifferenceDao.class
+com\eiqle\qleimg\portal\config\CorsConfig.class
+com\eiqle\qleimg\portal\entity\OssCallbackParam.class
+com\eiqle\qleimg\portal\QleimgPortalApplication.class
+com\eiqle\qleimg\portal\entity\OssCallback.class

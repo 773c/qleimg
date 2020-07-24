@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eiqlimg" />
+        <module name="qleimg-common" />
+        <module name="qleimg-portal" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eiqlimg" target="1.8" />
+      <module name="qleimg" target="1.8" />
+      <module name="qleimg-common" target="1.8" />
+      <module name="qleimg-portal" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

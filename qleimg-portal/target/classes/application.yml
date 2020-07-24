@@ -1,0 +1,31 @@
+spring:
+  profiles:
+    active: dev #默认开发环境
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10MB  #最大上传文件大小
+
+server:
+  port: 8002
+
+# mybatis
+mybatis:
+  type-aliases-package: com.eiqle.qleimg.portal.entity
+  mapper-locations: classpath:mybatis/mapper/*.xml
+
+# OSS相关配置信息
+aliyun:
+  oss:
+    endpoint: oss-cn-beijing.aliyuncs.com # oss对外服务的访问域名
+    accessKeyId: LTAI4G2AFrqNjveyrrXFpjMA # 访问身份验证中用到用户标识
+    accessKeySecret: N8uK0lnQ60yeD7Hhp2DPvz1Gyn8vn7 # 用户用于加密签名字符串和oss用来验证签名字符串的密钥
+    host: http://qleimg.oss-cn-beijing.aliyuncs.com/
+    bucketName: qleimg # oss的存储空间
+    policy:
+      expire: 100 # 签名有效期(S)
+    maxSize: 10 # 上传文件大小(M)
+    callback: http://localhost:8080/aliyun/oss/callback # 文件上传成功后的回调地址
+    dir:
+      prefix: qleimg/images/ # 上传文件夹路径前缀
+
